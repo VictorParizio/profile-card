@@ -1,0 +1,75 @@
+.page{
+    background-color: var(--bg-page);
+    height: 100vh;
+}
+
+.page .card{
+    background-color: #fff;
+    height: 380px;
+    width: 360px;
+    border-radius: 15px;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.page .card .card-top{
+    height: 145px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.page .card .foto{
+    position: absolute;
+    top: 90px;
+    border-radius: 50%;
+    border: solid 5px #fff;
+}
+
+.page .card .perfil, .info{
+    display: flex;
+}
+
+.page .card .perfil{
+    padding-top: 58px;
+    gap: 10px;
+}
+
+.page .card .perfil .name,
+.page .card .info h3{
+    color: var(--destaque);
+}
+
+.page .card .city{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.page .card .info{
+    justify-content: space-evenly;
+    width: 360px;
+    padding: 25px 0;
+    border-top: solid 1px var(--line);
+}
+
+.page .card .info p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.attribution,
+.attribution a{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.attribution a{
+    color: var(--destaque);
+}
+
+.attribution a:hover{
+    color: #fff;
+}

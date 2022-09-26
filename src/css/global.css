@@ -1,0 +1,18 @@
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 62.5%;
+    color: var(--base);
+    font-weight: 400;
+}
+
+*{
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
